@@ -5,6 +5,7 @@
 }
 .piece:hover{
     transform: rotate(15deg) scale(110%) translateY(-10px);
+    color:#F4AC45;
 }
 input[type=checkbox]{
     margin-right:2px;
