@@ -3,6 +3,9 @@
     padding:0;
     box-sizing: border-box;
 }
+.piece:hover{
+    transform: rotate(15deg) scale(110%) translateY(-10px);
+}
 input[type=checkbox]{
     margin-right:2px;
 }
@@ -68,6 +71,10 @@ body{
     transform: rotate(15deg) scale(90%);
     border:5px solid #F4AC45;
     transition: .1s;
+}
+.highlight:hover {
+    transform: rotate(15deg) scale(95%);
+    border:10px solid #F4AC45;
 }
 .checked {
     box-shadow: #222222 0 0 40px;
